@@ -14,7 +14,7 @@
 
 ### Описание
 
-Используйте ![следующий алгоритм](https://en.wikipedia.org/wiki/Luhn_algorithm) для проверки валидности номера карты.
+Используйте [следующий алгоритм](https://en.wikipedia.org/wiki/Luhn_algorithm) для проверки валидности номера карты.
 
 Изображения для карт необходимо найти самостоятельно (помните, про авторские права и недопустимость нелегального использования). Обычно информацию об использованных изображениях размещают в файле licenses.txt и кладут в корень сайта (настройте для этого соответствующим образом Webpack).
 
@@ -22,8 +22,8 @@
 
 Напишите авто-тесты на функции проверки номера карты и принадлежности определённой платёжной системе.
 
-В качестве источника номеров карт используйте сервис ![FreeFormatter](https://www.freeformatter.com/credit-card-number-generator-validator.html).
+В качестве источника номеров карт используйте сервис [FreeFormatter](https://www.freeformatter.com/credit-card-number-generator-validator.html).
 
 Удостоверьтесь, что всё работает при прогоне тестов в CI.
 
-[![NodeJS with Webpack](https://github.com/danroman-github/ahj-events/actions/workflows/webpack.yml/badge.svg)](https://github.com/danroman-github/ahj-events/actions/workflows/webpack.yml)
+[![NodeJS with Webpack](https://github.com/danroman-github/ahj-testing/actions/workflows/webpack.yml/badge.svg)](https://github.com/danroman-github/ahj-testing/actions/workflows/webpack.yml)
